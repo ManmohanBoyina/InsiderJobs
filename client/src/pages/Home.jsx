@@ -1,16 +1,17 @@
-import NavBar from "../Components/NavBar"
-import Hero from "../Components/Hero"
-import JobListing from "../Components/jobListing"
-import AppDownload from "../Components/AppDownload"
-import Footer from "../Components/Footer"
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import JobListing from '../components/jobListing'
+import AppDownload from '../components/AppDownload'
+import Footer from '../components/Footer'
+
 const Home = () => {
   return (
     <div>
-      <NavBar></NavBar>
-      <Hero></Hero>
+      <Navbar />
+      <Hero />
       <JobListing />
       <AppDownload />
-      <Footer></Footer>
+      <Footer />
     </div>
   )
 }
